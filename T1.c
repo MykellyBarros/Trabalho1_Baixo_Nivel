@@ -20,19 +20,6 @@ void Cinza(struct Pixel **matriz, int linhas, int colunas)
 
 void envelhecida(struct Pixel **matriz, int linhas, int colunas)
 {
-    for (int j = 0; j < linhas; ++j)
-    {
-        for (int i = 0; i < colunas; ++i)
-        {
-            matriz[j][i].R = matriz[j][i].R - 20;
-            matriz[j][i].G = matriz[j][i].G - 20;
-            matriz[j][i].B = matriz[j][i].B - 20;
-        }
-    }
-}
-
-void EfeitoNeg(struct Pixel **matriz, int linhas, int colunas)
-{
     for (int j = 0; j < linhas; j++)
     {
         for (int i = 0; i < colunas; i++)
@@ -54,6 +41,21 @@ void EfeitoNeg(struct Pixel **matriz, int linhas, int colunas)
                 matriz[j][i].B = 0;
         }
     }
+}
+
+void EfeitoNeg(struct Pixel **matriz, int linhas, int colunas)
+{
+    {
+
+    for (int j = 0; j < linhas; j++)
+    {
+        for (int i = 0; i < colunas; i++)
+        { matriz[j][i].R = 255 - matriz[j][i].R;
+          matriz[j][i].G = 255 - matriz[j][i].G;
+          matriz[j][i].B = 255 - matriz[j][i].B;
+        }
+    }
+}
 }
 
 void saturadac(struct Pixel **matriz, int linhas, int colunas)
