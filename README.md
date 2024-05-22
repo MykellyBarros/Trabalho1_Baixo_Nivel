@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
 </head>
 <body>
 
@@ -27,7 +26,7 @@
 <p>O programa deve oferecer um menu de opções com as seguintes funcionalidades:</p>
 <ol>
     <li>Gerar uma imagem tons de cinza;</li>
-    <li>Imagem tons de cinza - gerar imagem negativa;</li>
+    <li>Gerar imagem negativa;</li>
     <li>Imagem tons de cinza - aumentar o brilho;</li>
     <li>Imagem tons de cinza - diminuir o brilho;</li>
     <li>Rotacionar a imagem colorida - 90º;</li>
@@ -36,14 +35,12 @@
 
 <h2>Requisitos Adicionais</h2>
 <ol>
-    <li><strong>Disponibilizar no GitHub:</strong>
-        <ul>
-            <li>O código-fonte deve ser disponibilizado em um repositório público no GitHub.</li>
-        </ul>
-    </li>
     <li><strong>Vídeo Explicativo:</strong>
         <ul>
-            <li>Fazer um vídeo explicando o código, funcionamento e colocar o vídeo no YouTube.</li>
+            <li><a href="https://drive.google.com/file/d/1mYMugklGvHukCsjWwHoNMLb_v-aHpgZ8/view?usp=sharing" target="_blank">Vídeo explicando</a></li>
         </ul>
     </li>
 </ol>
+
+</body>
+</html>
