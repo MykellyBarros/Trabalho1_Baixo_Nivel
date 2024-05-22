@@ -150,7 +150,7 @@ void processarTransformacao(struct Pixel **matriz, int linha, int coluna, char f
         return;
     }
 
-    FILE *fp_novo = fopen("animal_transformado.ppm", "w");
+    FILE *fp_novo = fopen("imagem_transformada.ppm", "w");
     if (fp_novo == NULL)
     {
         printf("Erro ao criar o arquivo.\n");
@@ -199,7 +199,7 @@ void processarTransformacao(struct Pixel **matriz, int linha, int coluna, char f
         free(novaMatriz);
     }
 
-    printf("Transformação aplicada e salva em 'animal_transformado.ppm'.\n");
+    printf("Transformação aplicada e salva em 'imagem_transformado.ppm'.\n");
 }
 
 int main()
